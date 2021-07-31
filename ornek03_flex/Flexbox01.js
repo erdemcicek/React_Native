@@ -30,7 +30,10 @@ const Flexbox01 = () => {
 
 export default Flexbox01;
 
+
+
 const styles = StyleSheet.create({
+  
   body: {
     flex: 1,
     //! column (default), row, row-reverse, column-reverse
@@ -61,4 +64,5 @@ const styles = StyleSheet.create({
     color: "blue",
     textAlign: "center",
   },
+  
 });
