@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Image } from "react-native";
+
 const Flexbox02 = () => {
   return (
     <View style={styles.body}>
@@ -16,7 +17,7 @@ const Flexbox02 = () => {
           <Image
             style={styles.images}
             source={{
-              uri: "https://images.pexels.com/photos/5057075/pexels-photo-5057075.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+              uri: "https://picsum.photos/id/237/200/300",
             }}
           ></Image>
         </View>
@@ -24,7 +25,7 @@ const Flexbox02 = () => {
           <Image
             style={styles.images}
             source={{
-              uri: "https://images.pexels.com/photos/5059315/pexels-photo-5059315.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+              uri: "https://picsum.photos/id/248/200/300",
             }}
           ></Image>
         </View>
@@ -34,7 +35,7 @@ const Flexbox02 = () => {
           <Image
             style={styles.images}
             source={{
-              uri: "https://images.pexels.com/photos/5058646/pexels-photo-5058646.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+              uri: "https://picsum.photos/id/239/200/300",
             }}
           ></Image>
         </View>
@@ -42,7 +43,7 @@ const Flexbox02 = () => {
           <Image
             style={styles.images}
             source={{
-              uri: "https://images.pexels.com/photos/5059018/pexels-photo-5059018.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+              uri: "https://picsum.photos/id/139/200/300",
             }}
           ></Image>
         </View>
@@ -50,7 +51,9 @@ const Flexbox02 = () => {
     </View>
   );
 };
+
 export default Flexbox02;
+
 const styles = StyleSheet.create({
   body: {
     flex: 3,
@@ -73,6 +76,7 @@ const styles = StyleSheet.create({
   img3: {
     flex: 3,
   },
+
   // Büyük satir
   img4: {
     flex: 1,

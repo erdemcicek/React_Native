@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+
 const Flexbox01 = () => {
   return (
     <View style={styles.body}>
-    
       <View>
         <View style={styles.view1}>
           <Text style={styles.yazi}>1</Text>
@@ -24,23 +24,23 @@ const Flexbox01 = () => {
           <Text style={styles.yazi}>3</Text>
         </View>
       </View>
-
     </View>
   );
 };
+
 export default Flexbox01;
+
 const styles = StyleSheet.create({
   body: {
     flex: 1,
     //! column (default), row, row-reverse, column-reverse
-
     flexDirection: "row",
     //!Bir den fazla satira veya sutuna geçmesine izin verir.
-
     flexWrap: "wrap",
-    //! flex-start, flex-end, center, stretch, baseline (Dikey Hizlama)
 
+    //! flex-start, flex-end, center, stretch, baseline (Dikey Hizlama)
     alignItems: "center",
+
     //!flex-start, flex-end, center, space-between, space-around, space-evenly (Yatay Hizlama)
     justifyContent: "space-evenly",
   },
